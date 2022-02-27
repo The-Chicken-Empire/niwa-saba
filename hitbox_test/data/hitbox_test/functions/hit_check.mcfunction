@@ -1,0 +1,1 @@
+execute as @a[scores={hitbox_test.carrot=1..},nbt={SelectedItem:{Count:1b,tag:{CustomModelData:3298}}}] at @s run function hitbox_test:hit_check/magic_stick

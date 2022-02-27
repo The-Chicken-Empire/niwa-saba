@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"Magic Stick","color":"reset","italic":false}'},CustomModelData:3298} 1

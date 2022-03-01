@@ -1,1 +1,1 @@
-say dt_now
+say niwa_is_dt_now

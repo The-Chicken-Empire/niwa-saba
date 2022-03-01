@@ -1,1 +1,1 @@
-say a
+say dt_now

@@ -12,4 +12,4 @@ execute as @e[tag=hit] at @s run function hitbox_test:hit/magic_stick
 execute positioned ~0 ~0.5 ~ run particle minecraft:explosion ^ ^ ^1 0 0 0 0.1 1 force
 playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 0.9
 
-scoreboard players reset @s hitbox_text.carrot
+scoreboard players reset @s hitbox_test.carrot

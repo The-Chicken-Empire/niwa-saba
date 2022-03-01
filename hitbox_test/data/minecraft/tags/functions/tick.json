@@ -1,5 +1,5 @@
 {
-  "values": [
-    "hitbox_test:load"
-  ]
+	"values": [
+		"hitbox_test:tick"
+	]
 }

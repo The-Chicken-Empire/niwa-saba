@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"mob\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nkkn:phe"
+    }
+  }
+  

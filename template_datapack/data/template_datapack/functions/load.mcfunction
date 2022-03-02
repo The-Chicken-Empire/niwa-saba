@@ -1,0 +1,1 @@
+scoreboard objectives add template_datapack.tick dummy

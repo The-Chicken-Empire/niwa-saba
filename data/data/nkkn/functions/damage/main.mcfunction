@@ -8,6 +8,8 @@ execute if score @s HP > @s HPmax run scoreboard players operation @s HP = @s HP
 function nkkn:damage/hpview
 scoreboard players reset #hurtbyuuid
 scoreboard players reset #dmg
+scoreboard players reset #phydmg
+scoreboard players reset #sordmg
 scoreboard players set @s phydmg 0
 scoreboard players set @s sordmg 0
 scoreboard players set @s dmgresist 0

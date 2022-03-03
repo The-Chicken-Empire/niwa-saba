@@ -1,4 +1,10 @@
 effect give @a resistance 1 4 true
+#mesi
+execute as @a store result score @s food run data get entity @s foodLevel 1
+execute as @a if score @s food matches 19.. run effect give @s hunger 1 255
+execute as @a if score @s food matches ..18 run effect clear @s hunger
+execute as @a if score @s food matches 17 run effect give @s saturation 1 255
+execute as @a if score @s food matches 18.. run effect clear @s saturation
 #ダメージ処理
 execute if entity @e[tag=mob,nbt=!{Health:1000f},limit=1] as @e[tag=mob,nbt=!{Health:1000f}] run function nkkn:damage/entityenviroment
 execute if entity @e[predicate=nkkn:damaged,limit=1] as @e[predicate=nkkn:damaged] run function nkkn:damage/main

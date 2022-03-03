@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "attack_next": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"setting_ui_mob\",\"gametime\"]}"
+        },
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false,
+            "direct_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "setting_ui:advancement_functions/gametime"
+  }
+}

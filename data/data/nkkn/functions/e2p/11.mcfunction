@@ -1,0 +1,2 @@
+execute if entity @a[tag=this,advancements={nkkn:e2p={11-0=true}}] if entity @s[tag=FindFlag11.0] run function nkkn:e2p/10
+execute if entity @a[tag=this,advancements={nkkn:e2p={11-1=true}}] if entity @s[tag=FindFlag11.1] run function nkkn:e2p/10

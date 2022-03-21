@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:player"
+            },
+            "type": {
+              "is_projectile": false
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nkkn:p2p/ehp"
+    }
+  }
+  

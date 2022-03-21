@@ -1,0 +1,9 @@
+scoreboard players operation @s HPper = @s HP
+scoreboard players operation @s HPper *= #100 constant
+scoreboard players operation @s HPper /= @s HPmax
+scoreboard players operation @s HPint = @s HP
+scoreboard players operation @s HPdec = @s HP
+scoreboard players operation @s HPmaxint = @s HPmax
+scoreboard players operation @s HPint /= #10 constant
+scoreboard players operation @s HPdec %= #10 constant
+scoreboard players operation @s HPmaxint /= #10 constant
